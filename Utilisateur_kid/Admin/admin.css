@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: black;
+  color: white;
+}
+
+.black-bg {
+  background-color: black;
+  color: white;
+}
+
+table td a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-edit {
+  background-color: yellow;
+
+  width: 100px;
+}
+
+.btn-delete {
+  background-color: red;
+}
+
+  

@@ -1,0 +1,95 @@
+:root {
+    --border: #81093b;
+    --box-shadow: #eb428b;
+    --button-background: #bd175c;
+    --button-box-shadow: #cb2f78;
+  }
+  
+  /* Styles pour le corps de la page */
+  body {
+    background-image: url("backg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    box-shadow: 0 0 48px 0.20px var(--box-shadow);
+  }
+  
+  /* Styles pour la div principale */
+  div.exercise {
+    border: 1px solid rgba(228, 67, 118, 0.376);
+    border-radius: 15px;
+    background-color: rgba(229, 62, 137, 0.472);
+    box-shadow: 0 0 48px 0.80px var(--border);
+    padding: 20px;
+  }
+  
+  /* Styles pour le titre */
+  h2 {
+    text-align: center;
+    margin-top: 0;
+    color: var(--button-background);
+  }
+  
+  /* Styles pour les paragraphes */
+  p {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  /* Styles pour le formulaire */
+  form {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Styles pour le bouton */
+  input[type="submit"] {
+    background-color: var(--button-background);
+    border-radius: 20px;
+    box-shadow: 0 0 48px 0.50px var(--button-box-shadow);
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+  }
+  
+  /* Styles pour les étiquettes */
+  label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Styles pour l'animation de l'encouragement */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Styles pour l'encouragement */
+  .encouragement {
+    animation: fade-in 1s ease-in;
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  /* Styles pour les résultats */
+  #result {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .error {
+    color: red;
+  }
+  

@@ -1,0 +1,90 @@
+:root {
+    --border: #81093b;
+    --box-shadow: #eb428b;
+    --button-background: #bd175c;
+    --button-box-shadow: #cb2f78;
+}
+
+/* Styles pour le corps de la page */
+body {
+    background-image: url("backg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    border: 1px solid var(--background);
+    box-shadow: 0 0 48px .20px var(--box-shadow);
+}
+
+/* Styles pour la div principale */
+div {
+    border: 1px solid rgba(228, 67, 118, 0.376);
+    border-radius: 15px;
+    background-color: rgba(229, 62, 137, 0.472);
+    box-shadow: 0 0 48px .80px var(--border);
+}
+
+/* Styles pour le titre */
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    color: var(--button-background);
+}
+
+/* Styles pour les paragraphes */
+p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Styles pour le formulaire */
+form {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Styles pour le bouton */
+button {
+    background-color: var(--button-background);
+    border-radius: 20px;
+    box-shadow: 0 0 48px .50px var(--button-box-shadow);
+    margin-top: 35px;
+    width: 100px;
+    height: 30px;
+}
+
+/* Styles pour les étiquettes */
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Styles pour l'animation de l'encouragement */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Styles pour l'encouragement */
+.encouragement {
+    animation: fade-in 1s ease-in;
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Styles pour l'encouragement conditionnel */
+.correct {
+    color: green;
+}
+
+.faux {
+    color: red;
+}
